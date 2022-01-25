@@ -1,0 +1,886 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1466; Version 2009; 64bit' Language: 'en' Physical Memory: 16344 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\UnityEditors\2020.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/Unity/TBA
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58060
+Successfully changed project path to: F:/Unity/TBA
+F:/Unity/TBA
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 50.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.13f1 (71691879b7f5)
+[Subsystems] Discovering subsystems at path D:/UnityEditors/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Unity/TBA/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8088 MB
+    Driver:   30.0.14.9709
+Initialize mono
+Mono path[0] = 'D:/UnityEditors/2020.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UnityEditors/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/UnityEditors/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UnityEditors/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001729 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 54.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.210 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009546 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.257 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2706 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.4 MB.
+System memory in use after: 100.5 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3583.
+Total: 2.706500 ms (FindLiveObjects: 0.330300 ms CreateObjectMapping: 0.140300 ms MarkObjects: 2.134800 ms  DeleteObjects: 0.099700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/DynamicBone/Demo
+  artifactKey: Guid(21a42390d25252341a66bc19a8addaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DynamicBone/Demo using Guid(21a42390d25252341a66bc19a8addaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2d958cfbad1ffeb5a742215d803513') in 0.012759 seconds 
+  Import took 0.023570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/DynamicBone/Demo/tail.FBX
+  artifactKey: Guid(19015a5957bbaa745a61cba005220542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DynamicBone/Demo/tail.FBX using Guid(19015a5957bbaa745a61cba005220542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404fefe2330e211308e9f267b5940441') in 0.316836 seconds 
+  Import took 0.326954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Gizmos
+  artifactKey: Guid(db67ac655d8de824194f587deecafb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gizmos using Guid(db67ac655d8de824194f587deecafb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153682399782143854b4d611782f0f12') in 0.001226 seconds 
+  Import took 0.008763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/DynamicBone/Demo/c1.fbx
+  artifactKey: Guid(ba128457d0ea5e3439dbe4a53b9d1273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DynamicBone/Demo/c1.fbx using Guid(ba128457d0ea5e3439dbe4a53b9d1273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8089cd799def0acd85a253d6b4a19209') in 0.058498 seconds 
+  Import took 0.066229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/DynamicBone
+  artifactKey: Guid(ce65c1065a500ed4990035219ca6677d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DynamicBone using Guid(ce65c1065a500ed4990035219ca6677d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d6fe817c6bd24ca7c87dfc01e6aac7') in 0.001406 seconds 
+  Import took 0.007008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.271731 seconds.
+  path: Assets/DynamicBone/Demo/DynamicBoneDemo1.cs
+  artifactKey: Guid(178320cedf292cb4f8d6c0b737b35953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DynamicBone/Demo/DynamicBoneDemo1.cs using Guid(178320cedf292cb4f8d6c0b737b35953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e645cb1600c3f2fb704b4a28596dc2c9') in 0.013781 seconds 
+  Import took 0.023996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022087 seconds.
+  path: Assets/DynamicBone/Demo/DynamicBoneDemo1.cs
+  artifactKey: Guid(178320cedf292cb4f8d6c0b737b35953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DynamicBone/Demo/DynamicBoneDemo1.cs using Guid(178320cedf292cb4f8d6c0b737b35953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e645cb1600c3f2fb704b4a28596dc2c9') in 0.003200 seconds 
+  Import took 0.008834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.674464 seconds.
+  path: Assets/DynamicBone/Demo/Demo1.unity
+  artifactKey: Guid(902c84bf971339c459ce4b757e333a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DynamicBone/Demo/Demo1.unity using Guid(902c84bf971339c459ce4b757e333a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1405374524f0ebf52dd86de4f511a3') in 0.002190 seconds 
+  Import took 0.012485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.234259 seconds.
+  path: Assets/PathCreator/Core/Runtime
+  artifactKey: Guid(c62dae0f992c5174a951248617cc5720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Core/Runtime using Guid(c62dae0f992c5174a951248617cc5720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc53e3858f9f3e66db2461edd9557483') in 0.001515 seconds 
+  Import took 0.013083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029892 seconds.
+  path: Assets/PathCreator/Core/Runtime/PathCreator.asmdef
+  artifactKey: Guid(626070ea3273cb844a310aa4f53b31fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Core/Runtime/PathCreator.asmdef using Guid(626070ea3273cb844a310aa4f53b31fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c93d4f00ac6b5372e902ea3d1c94ff1') in 0.005487 seconds 
+  Import took 0.010991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.291260 seconds.
+  path: Assets/PathCreator/Core/Settings
+  artifactKey: Guid(4f9b1508dc64040469b4b1ee117d27a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Core/Settings using Guid(4f9b1508dc64040469b4b1ee117d27a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b69bb5e5b15747679bc99bd04e7aea') in 0.001626 seconds 
+  Import took 0.012814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.010794 seconds.
+  path: Assets/PathCreator/Examples/Scenes
+  artifactKey: Guid(7fa8a76a6a31dba43b3f224aa4c8ef31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Examples/Scenes using Guid(7fa8a76a6a31dba43b3f224aa4c8ef31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9399683e554a0bcbc5765e7b287710') in 0.001559 seconds 
+  Import took 0.013686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.905304 seconds.
+  path: Assets/PathCreator/Examples/Scenes/Road.unity
+  artifactKey: Guid(8f020cfa1fb7ded47926b050b82adbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Examples/Scenes/Road.unity using Guid(8f020cfa1fb7ded47926b050b82adbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb83c6b8377994901f234500c55a75d4') in 0.002471 seconds 
+  Import took 0.013071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.685715 seconds.
+  path: Assets/PathCreator/Examples/Scenes/Path as Prefab.unity
+  artifactKey: Guid(7c3960531f0fd44beaacc5037d708071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Examples/Scenes/Path as Prefab.unity using Guid(7c3960531f0fd44beaacc5037d708071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adec5e791f8ac2aa08ee9157a51e60ac') in 0.002447 seconds 
+  Import took 0.014806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.287148 seconds.
+  path: Assets/PathCreator/Examples/Scenes/Object Placement.unity
+  artifactKey: Guid(f9d700f5f914447f48566abe5b02d921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Examples/Scenes/Object Placement.unity using Guid(f9d700f5f914447f48566abe5b02d921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f93867e799ff971213a0f2730b68721') in 0.001991 seconds 
+  Import took 0.010070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.424005 seconds.
+  path: Assets/PathCreator/Examples/Scenes/Generate Path.unity
+  artifactKey: Guid(3145d476fb2c7f242875d23b77320de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Examples/Scenes/Generate Path.unity using Guid(3145d476fb2c7f242875d23b77320de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a837078898b87ff91686ea5e65c5fd5d') in 0.001967 seconds 
+  Import took 0.012664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.346439 seconds.
+  path: Assets/PathCreator/Examples/Scenes/Follow Path.unity
+  artifactKey: Guid(c1e712ad623461e418f182144cf61384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PathCreator/Examples/Scenes/Follow Path.unity using Guid(c1e712ad623461e418f182144cf61384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62f5514f10706335c313519ce305461') in 0.007394 seconds 
+  Import took 0.014718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.504271 seconds.
+  path: Assets/PlayMaker/Templates
+  artifactKey: Guid(3e30cdaff0c42374aa75a87245106ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayMaker/Templates using Guid(3e30cdaff0c42374aa75a87245106ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff55f3d2f3a539a7767ff8eb9e090a4') in 0.001533 seconds 
+  Import took 0.007151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.000417 seconds.
+  path: Assets/PlayMaker/Resources
+  artifactKey: Guid(e1eabd03ef748d54ebd26d7be14378fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayMaker/Resources using Guid(e1eabd03ef748d54ebd26d7be14378fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2daf7f0bcce2ddc08cfede0c263dd5f') in 0.001434 seconds 
+  Import took 0.011763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.422659 seconds.
+  path: Assets/PlayMaker/Actions
+  artifactKey: Guid(e0f28db390b02c649923758f704fd26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayMaker/Actions using Guid(e0f28db390b02c649923758f704fd26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839179942fe59994dc867eef30e07a2f') in 0.002031 seconds 
+  Import took 0.009284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.776638 seconds.
+  path: Assets/PlayMaker/Actions/Camera
+  artifactKey: Guid(55b281a5e429ebd44ad17cfa591fe897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayMaker/Actions/Camera using Guid(55b281a5e429ebd44ad17cfa591fe897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059134644c161bf7ffce4472120cbe6f') in 0.002061 seconds 
+  Import took 0.013268 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011145 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.135 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2619 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.8 MB.
+System memory in use after: 115.0 MB.
+
+Unloading 102 unused Assets to reduce memory usage. Loaded Objects now: 3535.
+Total: 4.364200 ms (FindLiveObjects: 0.879200 ms CreateObjectMapping: 0.247100 ms MarkObjects: 3.124800 ms  DeleteObjects: 0.111600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 31.053503 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler
+  artifactKey: Guid(d4fd49f549d81cf44865311f4d9b4462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler using Guid(d4fd49f549d81cf44865311f4d9b4462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634b21fdf63df65e9c675ae554bf0b93') in 0.005994 seconds 
+  Import took 0.016632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.469118 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Scenes
+  artifactKey: Guid(c05ec7dfaf8e0a1489a46a8ce99b6304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Scenes using Guid(c05ec7dfaf8e0a1489a46a8ce99b6304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '024ad93d809688d6514786e10c55d275') in 0.001730 seconds 
+  Import took 0.014138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.521902 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Scenes/PastelTown Scene.unity
+  artifactKey: Guid(be19417bc24b85847acafdba462b95a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Scenes/PastelTown Scene.unity using Guid(be19417bc24b85847acafdba462b95a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8bead2563f30ea16ccfa5377bf7556') in 0.010303 seconds 
+  Import took 0.020231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.693945 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Scenes/PastelTown All Props.unity
+  artifactKey: Guid(b85c38649ba44274f9e73e30c478ab3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Scenes/PastelTown All Props.unity using Guid(b85c38649ba44274f9e73e30c478ab3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f518f0e458055ba10f96ed05054f54de') in 0.001759 seconds 
+  Import took 0.012715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.705729 seconds.
+  path: Assets/tripolygon/UModeler
+  artifactKey: Guid(9f449824e49e26a47b382e72b52ec85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/UModeler using Guid(9f449824e49e26a47b382e72b52ec85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba7876b8f11463d8bda822c09427558') in 0.001626 seconds 
+  Import took 0.007581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.665630 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs
+  artifactKey: Guid(981ab495c7316ce4faa181bdb6f5f47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs using Guid(981ab495c7316ce4faa181bdb6f5f47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e59a7a07baaa18a406a781f8a5dad5') in 0.002958 seconds 
+  Import took 0.011912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.140056 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/BoxTree_A.prefab
+  artifactKey: Guid(3e79665d437b1a946b06a83a321ab83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/BoxTree_A.prefab using Guid(3e79665d437b1a946b06a83a321ab83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09deedd63d0dd50475e9bd9a2df76899') in 0.047161 seconds 
+  Import took 0.053790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Ground_C.prefab
+  artifactKey: Guid(ba3e227267793b44b8c89eaaea8398b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Ground_C.prefab using Guid(ba3e227267793b44b8c89eaaea8398b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0abb6e029edc4311ab81517e53a83a0') in 0.014536 seconds 
+  Import took 0.021560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/CarRoad_D.prefab
+  artifactKey: Guid(1248a6b51385df7499d3f0bf5509e8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/CarRoad_D.prefab using Guid(1248a6b51385df7499d3f0bf5509e8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa4c63f8398a7b15cca272b45d44df8') in 0.004877 seconds 
+  Import took 0.012323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/House_01C.prefab
+  artifactKey: Guid(7a160c234e8cab148b6d52a6a07ed965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/House_01C.prefab using Guid(7a160c234e8cab148b6d52a6a07ed965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02a89e0fd56d9438e589904e91399c7') in 0.032305 seconds 
+  Import took 0.038251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Lamp_A.prefab
+  artifactKey: Guid(0edd73f6afdb4b045bc80f0344fbec14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Lamp_A.prefab using Guid(0edd73f6afdb4b045bc80f0344fbec14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a40ffd708713b92bbbd4d576be361c9') in 0.008737 seconds 
+  Import took 0.014749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/MuseumBigDoor_A.prefab
+  artifactKey: Guid(fdf2dd77014df5a4fa077799379d1311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/MuseumBigDoor_A.prefab using Guid(fdf2dd77014df5a4fa077799379d1311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfaeb92ea81a9665ea57b92d8d4b3747') in 0.005138 seconds 
+  Import took 0.010719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Car_01B.prefab
+  artifactKey: Guid(de0d2855ebc09584196b3036689179ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Car_01B.prefab using Guid(de0d2855ebc09584196b3036689179ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eeb0f319bab2b4f6f4c47c1346aa524') in 0.035823 seconds 
+  Import took 0.044363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/CarRoad_E.prefab
+  artifactKey: Guid(f22dc4eaca98a434f9ca33d9724c4107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/CarRoad_E.prefab using Guid(f22dc4eaca98a434f9ca33d9724c4107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f018f7a42855f4f0da1eda9be7bd424c') in 0.006571 seconds 
+  Import took 0.012968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Lamp_C.prefab
+  artifactKey: Guid(ae70bd0d3d2bca74e89d74879f9f7efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Lamp_C.prefab using Guid(ae70bd0d3d2bca74e89d74879f9f7efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd83c1afc9d7e006c0747d297ed17fe') in 0.016676 seconds 
+  Import took 0.028650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/House_02A.prefab
+  artifactKey: Guid(93d3abedda29ace49acd74425c348cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/House_02A.prefab using Guid(93d3abedda29ace49acd74425c348cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3582ef4c08bec5e4dc874c479939b083') in 0.019883 seconds 
+  Import took 0.025142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Tunnel_A.prefab
+  artifactKey: Guid(968ad9288382e3040a1a98b988250467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Tunnel_A.prefab using Guid(968ad9288382e3040a1a98b988250467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7ff69b159df07cde59d06873459c6e') in 0.006468 seconds 
+  Import took 0.011619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/CarRoad_B.prefab
+  artifactKey: Guid(68b0a87e4f548b74e85fff601e45192a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/CarRoad_B.prefab using Guid(68b0a87e4f548b74e85fff601e45192a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8a1a3cf4ba451547d865b2b1e20435') in 0.006415 seconds 
+  Import took 0.012209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Chair_A.prefab
+  artifactKey: Guid(01cafb621e875e44881705ab3473e04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Chair_A.prefab using Guid(01cafb621e875e44881705ab3473e04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba26cc994ecc2373c066922c55af86dc') in 0.005574 seconds 
+  Import took 0.011461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/LandScape.prefab
+  artifactKey: Guid(7a689de7b7ead5c47a65235762a45d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/LandScape.prefab using Guid(7a689de7b7ead5c47a65235762a45d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3228025e03b9ecdd82d87d6344692eaa') in 0.013274 seconds 
+  Import took 0.019676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Chair_B.prefab
+  artifactKey: Guid(d59d04eaac1768d4e9f26dd8c0ea4b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Chair_B.prefab using Guid(d59d04eaac1768d4e9f26dd8c0ea4b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029f44056d4f025db0d0475c4e70c73a') in 0.005802 seconds 
+  Import took 0.011309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Table_A.prefab
+  artifactKey: Guid(b3b6bbd4be5133c42a0d390ed2b08a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Table_A.prefab using Guid(b3b6bbd4be5133c42a0d390ed2b08a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf81931f894c98e3966eea79073413f') in 0.005994 seconds 
+  Import took 0.011587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/HamburgerSign_A.prefab
+  artifactKey: Guid(44fc8621b06062349b7a274e570947fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/HamburgerSign_A.prefab using Guid(44fc8621b06062349b7a274e570947fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6286c281e6ce9bfd08e600ffd9618772') in 0.018032 seconds 
+  Import took 0.023699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Tree_B.prefab
+  artifactKey: Guid(cab9d9ad7b5f3d141a57036aa2874b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Tree_B.prefab using Guid(cab9d9ad7b5f3d141a57036aa2874b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340402cb5fae75f856cce2abc2c15646') in 0.004362 seconds 
+  Import took 0.010618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Buillding_A.prefab
+  artifactKey: Guid(45911163aaffda64286763be7bc8e2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Buillding_A.prefab using Guid(45911163aaffda64286763be7bc8e2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0531d7d1fd42e645eed06d03df82be64') in 0.016539 seconds 
+  Import took 0.022669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/House_01A.prefab
+  artifactKey: Guid(e5796f1e85430ee4ea60564fabb628d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/House_01A.prefab using Guid(e5796f1e85430ee4ea60564fabb628d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b89d9a47c71dded097dc996340fd30') in 0.023597 seconds 
+  Import took 0.028871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Museum_A.prefab
+  artifactKey: Guid(6888204ce9617fa4c991fa2d57a49e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Museum_A.prefab using Guid(6888204ce9617fa4c991fa2d57a49e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ad5a54b18a336996e284a248367e63') in 0.127108 seconds 
+  Import took 0.132888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/MuseumGround_B.prefab
+  artifactKey: Guid(27ecae20ed4918f4b9690b4512e8f8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/MuseumGround_B.prefab using Guid(27ecae20ed4918f4b9690b4512e8f8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea1ab76e66f69c79e2a16f39ef5a18a') in 0.003827 seconds 
+  Import took 0.009187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/TreeGround_A.prefab
+  artifactKey: Guid(6978c9f2def94544dae27e32da4f61c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/TreeGround_A.prefab using Guid(6978c9f2def94544dae27e32da4f61c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12199894357f50b33dbf060080fa2636') in 0.004720 seconds 
+  Import took 0.010655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Tree_A.prefab
+  artifactKey: Guid(4f6fcbddcde3667439e808bc567fed6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Tree_A.prefab using Guid(4f6fcbddcde3667439e808bc567fed6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44db87639fbcd936c56f1881057af11f') in 0.003786 seconds 
+  Import took 0.009430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001128 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/House_F.prefab
+  artifactKey: Guid(ea5a814da9c56cd4381fa47ed944a437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/House_F.prefab using Guid(ea5a814da9c56cd4381fa47ed944a437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff87b3006238c5280e0e601fa1425db') in 0.032599 seconds 
+  Import took 0.038472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/House_01B.prefab
+  artifactKey: Guid(3b3768c5eccfa25488c7116818f07a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/House_01B.prefab using Guid(3b3768c5eccfa25488c7116818f07a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53771715060ac9e1838af5c91712803c') in 0.020300 seconds 
+  Import took 0.024987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/CarRoad_F.prefab
+  artifactKey: Guid(bd8536b5eafe58b458419ab6e4cd32dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/CarRoad_F.prefab using Guid(bd8536b5eafe58b458419ab6e4cd32dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e66a3e5ba80cf5eea1cf747efc15f9') in 0.004618 seconds 
+  Import took 0.009780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/HamburgerShop_A.prefab
+  artifactKey: Guid(5b074d7f6233e7f49abe5cecdc359c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/HamburgerShop_A.prefab using Guid(5b074d7f6233e7f49abe5cecdc359c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9fd6aafd13ed7a723e40f52e71b5eea') in 0.010999 seconds 
+  Import took 0.016953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Ground_D.prefab
+  artifactKey: Guid(14d770c4359b99e4c9b9209272c56860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Ground_D.prefab using Guid(14d770c4359b99e4c9b9209272c56860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192ba43341d02be9c09cf6760e9b6c62') in 0.005084 seconds 
+  Import took 0.010805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Lamp_B.prefab
+  artifactKey: Guid(8a267501f44238a4083288de1bf0d38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Lamp_B.prefab using Guid(8a267501f44238a4083288de1bf0d38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4cd44c15438bd210e4dcbe825be7da9') in 0.008045 seconds 
+  Import took 0.013716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Car_03B.prefab
+  artifactKey: Guid(e989f66ad5a0cd943a226c007f4e628b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Car_03B.prefab using Guid(e989f66ad5a0cd943a226c007f4e628b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341c2a8052332415d92df2ef5762b313') in 0.026452 seconds 
+  Import took 0.031342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Lamp_D.prefab
+  artifactKey: Guid(7c282bbe7312e23438f149c63a32fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Lamp_D.prefab using Guid(7c282bbe7312e23438f149c63a32fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f069f3395b7a87e0e7149cbbbc1706d') in 0.008372 seconds 
+  Import took 0.012938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/MuseumGround_A.prefab
+  artifactKey: Guid(909f657a9443b5542af6f9c3d16ce473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/MuseumGround_A.prefab using Guid(909f657a9443b5542af6f9c3d16ce473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb4b31d7d994bd8c2cea864a67fb491') in 0.003644 seconds 
+  Import took 0.009310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Car_A.prefab
+  artifactKey: Guid(1750df01feccbdb4fafaae52c8405923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Car_A.prefab using Guid(1750df01feccbdb4fafaae52c8405923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8c20d47f14a8d4423cd4708e026f02') in 0.028909 seconds 
+  Import took 0.034236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/CarRoad_A.prefab
+  artifactKey: Guid(98ddf30f729242e4cbef59576c3b6263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/CarRoad_A.prefab using Guid(98ddf30f729242e4cbef59576c3b6263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00735ca1d41862fc624fa99f21f29814') in 0.006082 seconds 
+  Import took 0.013762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/House_03B.prefab
+  artifactKey: Guid(a773001ac31d1a943a491087e9632fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/House_03B.prefab using Guid(a773001ac31d1a943a491087e9632fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c00b411246a62f314cc094459a7dc58') in 0.021658 seconds 
+  Import took 0.027966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/CarRoad_C.prefab
+  artifactKey: Guid(f2a1daedc389df7429be273cb954f707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/CarRoad_C.prefab using Guid(f2a1daedc389df7429be273cb954f707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c843b67c4255db2fd37d468a146b3f3') in 0.004637 seconds 
+  Import took 0.009946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/House_02B.prefab
+  artifactKey: Guid(8d3febb2fefa2af4cbe7436b1b463dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/House_02B.prefab using Guid(8d3febb2fefa2af4cbe7436b1b463dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd47830c145879e510a00762cf4a7a48') in 0.023196 seconds 
+  Import took 0.028789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/MuseumWall_A.prefab
+  artifactKey: Guid(1d9097313b8737243a9831fb9441e8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/MuseumWall_A.prefab using Guid(1d9097313b8737243a9831fb9441e8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536a0f4702173a5b02c68046463b8c4e') in 0.005473 seconds 
+  Import took 0.010721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Ground_A.prefab
+  artifactKey: Guid(3ec2b1c3afd7d0f4dbb5f5334b72da94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Ground_A.prefab using Guid(3ec2b1c3afd7d0f4dbb5f5334b72da94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2f43f0f030390c61c4cff0cdf1deba') in 0.005343 seconds 
+  Import took 0.011144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Ground_G.prefab
+  artifactKey: Guid(9c47a0c363b7fb4449b34414f6b94aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Ground_G.prefab using Guid(9c47a0c363b7fb4449b34414f6b94aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01b0e8b56543d24a0f657b761c3464f') in 0.004469 seconds 
+  Import took 0.010711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Car_04B.prefab
+  artifactKey: Guid(6520efafdec6e3242b4427eb30826beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Car_04B.prefab using Guid(6520efafdec6e3242b4427eb30826beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528ad3360365917c28b7af8cf27afdac') in 0.027803 seconds 
+  Import took 0.033459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Ground_E.prefab
+  artifactKey: Guid(7356358d395122a4f8dbd0d8a76a5eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Ground_E.prefab using Guid(7356358d395122a4f8dbd0d8a76a5eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9a872838c727cd0f340d7d4908c03a') in 0.004527 seconds 
+  Import took 0.010163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Car_02B.prefab
+  artifactKey: Guid(63d710c1e8a4bf7429fb670bf50164b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Car_02B.prefab using Guid(63d710c1e8a4bf7429fb670bf50164b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97cdabf14ffa18902948a49907c187d') in 0.026303 seconds 
+  Import took 0.031617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Ground_B.prefab
+  artifactKey: Guid(79da209f9d0d515449f4a7ecc5e37ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Ground_B.prefab using Guid(79da209f9d0d515449f4a7ecc5e37ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b423bc1c8fe775361d7b705dca754b') in 0.004362 seconds 
+  Import took 0.009189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/PizzaShop_A.prefab
+  artifactKey: Guid(64fa217f2cc1f4e40a030f6ccbca4967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/PizzaShop_A.prefab using Guid(64fa217f2cc1f4e40a030f6ccbca4967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f13ac5cdda5852d13ea3e65f9277ce') in 0.026419 seconds 
+  Import took 0.033606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Buillding_B.prefab
+  artifactKey: Guid(177ad1a5193ef3245a1778f8e82a948a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Buillding_B.prefab using Guid(177ad1a5193ef3245a1778f8e82a948a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6567de785d414cbdcbb8e13cbef9245') in 0.022198 seconds 
+  Import took 0.026783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Ground_F.prefab
+  artifactKey: Guid(8c0d67895f204794bb30f5b20a5a703e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/PastelTown-BuiltInRP-UModeler/Prefabs/Ground_F.prefab using Guid(8c0d67895f204794bb30f5b20a5a703e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3974fb7c6da24b751086ab08cd74447') in 0.005774 seconds 
+  Import took 0.011048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.477135 seconds.
+  path: Assets/tripolygon/UModeler/commentbackground0.png
+  artifactKey: Guid(d7a93bc6089436f42aa29b2af21efa3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/UModeler/commentbackground0.png using Guid(d7a93bc6089436f42aa29b2af21efa3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc2372bdda5fa6a8a4074cfb7c48ca4') in 0.091643 seconds 
+  Import took 0.096721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/tripolygon/UModeler/tooltip_darkskin_bg_deselected.png
+  artifactKey: Guid(02e84da9462282e41afea76dc9509643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/UModeler/tooltip_darkskin_bg_deselected.png using Guid(02e84da9462282e41afea76dc9509643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95acda6d6f575011a2cbad76ebfbaa9') in 0.007513 seconds 
+  Import took 0.012979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/tripolygon/UModeler/UModelerDefault.guiskin
+  artifactKey: Guid(788daf0d771aa7e4c843a3cb0fa29323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/UModeler/UModelerDefault.guiskin using Guid(788daf0d771aa7e4c843a3cb0fa29323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a30b669b170b8fd9eddcd458fb17f5') in 0.011846 seconds 
+  Import took 0.017324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/tripolygon/UModeler/tooltip_darkskin_bg_selected.png
+  artifactKey: Guid(c7ad07d24cddbab4ea04118f8a0356c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/UModeler/tooltip_darkskin_bg_selected.png using Guid(c7ad07d24cddbab4ea04118f8a0356c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56ac34ea1929435653aa08c04d21908') in 0.008573 seconds 
+  Import took 0.014353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/tripolygon/UModeler/commentbackground1.png
+  artifactKey: Guid(f796e064701c62a45b3cdc7d1c3ac4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/UModeler/commentbackground1.png using Guid(f796e064701c62a45b3cdc7d1c3ac4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b6b985746047e6e779d203d24782a0') in 0.007348 seconds 
+  Import took 0.012702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/tripolygon/UModeler/darkskin.png
+  artifactKey: Guid(6e76db2f4698d8a4e910895305e862da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/UModeler/darkskin.png using Guid(6e76db2f4698d8a4e910895305e862da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3561c0cbd36552b81520ccce00fd494') in 0.005234 seconds 
+  Import took 0.010284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/tripolygon/UModeler/lightskin.png
+  artifactKey: Guid(8c6ac3d3b35aa104ba491084e2919365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/UModeler/lightskin.png using Guid(8c6ac3d3b35aa104ba491084e2919365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45f9dda8a0f25cd07f918e7187fcd32') in 0.005404 seconds 
+  Import took 0.011301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/tripolygon/UModeler/tooltip_lightskin_bg_deselected.png
+  artifactKey: Guid(39e07e740d2a25d49a14de0145c029dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/UModeler/tooltip_lightskin_bg_deselected.png using Guid(39e07e740d2a25d49a14de0145c029dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94654e7ee14461428859dc40a219a54') in 0.005030 seconds 
+  Import took 0.010663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/tripolygon/UModeler/tooltip_lightskin_bg_selected.png
+  artifactKey: Guid(de0c24431dece6c42b5440ece18b01ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/UModeler/tooltip_lightskin_bg_selected.png using Guid(de0c24431dece6c42b5440ece18b01ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19574bb1f0193ce0dfb5ecccc76d2f4') in 0.006689 seconds 
+  Import took 0.012653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/tripolygon/UModeler/CustomSkin.guiskin
+  artifactKey: Guid(a7afc553f5cdfe243a66a0de8c2178f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tripolygon/UModeler/CustomSkin.guiskin using Guid(a7afc553f5cdfe243a66a0de8c2178f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f7da126196bf595b6309b127ef926a') in 0.002892 seconds 
+  Import took 0.008676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.979618 seconds.
+  path: Assets/UMotionExamples/Example Scene
+  artifactKey: Guid(13ba4d2ee6e74bf4b9aea7f330df39c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMotionExamples/Example Scene using Guid(13ba4d2ee6e74bf4b9aea7f330df39c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c84be5563e53da4129647627e50d26a') in 0.002098 seconds 
+  Import took 0.008226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.033635 seconds.
+  path: Assets/UMotionExamples/Miscellaneous
+  artifactKey: Guid(236640e71e2d52940b7192ccb7ef4112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMotionExamples/Miscellaneous using Guid(236640e71e2d52940b7192ccb7ef4112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c74b8be662efd540f2d105e6e8c4cb') in 0.001429 seconds 
+  Import took 0.012211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.823646 seconds.
+  path: Assets/UMotionExamples/Exported Animations
+  artifactKey: Guid(6a7fd917cd57b724fb17bdf3d938efa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMotionExamples/Exported Animations using Guid(6a7fd917cd57b724fb17bdf3d938efa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f937b88b856d119744f1a133ee619560') in 0.001531 seconds 
+  Import took 0.007740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.710919 seconds.
+  path: Assets/UMotionExamples/Example Scene/UMotionExampleScene.unity
+  artifactKey: Guid(52758637713a41a46832cde806a538c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMotionExamples/Example Scene/UMotionExampleScene.unity using Guid(52758637713a41a46832cde806a538c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c36cfa10b4c41f1414f29791d02975') in 0.001897 seconds 
+  Import took 0.007402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.590713 seconds.
+  path: Assets/UMotionExamples/Example Scene/UMotionExampleSceneSettings.lighting
+  artifactKey: Guid(028c180c6893c3c43b021f1e0f08ab8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMotionExamples/Example Scene/UMotionExampleSceneSettings.lighting using Guid(028c180c6893c3c43b021f1e0f08ab8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'ae5a44123ad027cc47cf523e7efeb8b0') in 0.004061 seconds 
+  Import took 0.008996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035633 seconds.
+  path: Assets/UMotionExamples/Example Scene/UMotionExampleSceneSettings.lighting
+  artifactKey: Guid(028c180c6893c3c43b021f1e0f08ab8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMotionExamples/Example Scene/UMotionExampleSceneSettings.lighting using Guid(028c180c6893c3c43b021f1e0f08ab8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'ae5a44123ad027cc47cf523e7efeb8b0') in 0.001967 seconds 
+  Import took 0.007438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.317768 seconds.
+  path: Assets/UMotionExamples/UMotion Projects
+  artifactKey: Guid(7dd3b30cf92b1e6438529404ff8b1c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMotionExamples/UMotion Projects using Guid(7dd3b30cf92b1e6438529404ff8b1c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160a87f16c8e8d9635e26bbc0fef9daf') in 0.001518 seconds 
+  Import took 0.013475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002687 seconds.
+  path: Assets/UMotionExamples/UMotion Projects
+  artifactKey: Guid(7dd3b30cf92b1e6438529404ff8b1c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMotionExamples/UMotion Projects using Guid(7dd3b30cf92b1e6438529404ff8b1c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160a87f16c8e8d9635e26bbc0fef9daf') in 0.001141 seconds 
+  Import took 0.007016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.943283 seconds.
+  path: Assets/UMotionExamples/UMotion Projects/IdleAnimation.asset
+  artifactKey: Guid(e02770255849fc949b79b0323686935c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMotionExamples/UMotion Projects/IdleAnimation.asset using Guid(e02770255849fc949b79b0323686935c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642e4cd3f34c4a3ca23d8a43ef70e0c5') in 0.083927 seconds 
+  Import took 0.088381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/UMotionExamples/UMotion Projects/PickUpAnimation.asset
+  artifactKey: Guid(0acfa559e5f001947a180fcb7209dbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMotionExamples/UMotion Projects/PickUpAnimation.asset using Guid(0acfa559e5f001947a180fcb7209dbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72790954afd2f90f5d743dcf736ddc61') in 0.030389 seconds 
+  Import took 0.036401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/UMotionExamples/UMotion Projects/WalkRMAnimation.asset
+  artifactKey: Guid(7ff4ea234c487364d8069a8aa4d323f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMotionExamples/UMotion Projects/WalkRMAnimation.asset using Guid(7ff4ea234c487364d8069a8aa4d323f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38477d2f21069bc3e4a70693ddbfd0f7') in 0.030364 seconds 
+  Import took 0.036768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/UMotionExamples/UMotion Projects/IKPullupsAnimation.asset
+  artifactKey: Guid(5ef523b0868fadb48ace9857a8cc2581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UMotionExamples/UMotion Projects/IKPullupsAnimation.asset using Guid(5ef523b0868fadb48ace9857a8cc2581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b638a596e96a9f6dd8b206bedd97a8') in 0.029144 seconds 
+  Import took 0.034181 seconds .
+
